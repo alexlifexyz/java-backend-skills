@@ -1,0 +1,10 @@
+{
+  "name": "java-backend-skills",
+  "version": "0.1.0",
+  "description": "中文 Java 后端 Agent Skills：事务、MyBatis 与 SQL、Arthas 线上排障、接口幂等、阿里规约。Chinese-first agent skills for Java backend work.",
+  "author": {
+    "name": "alexlifexyz"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/alexlifexyz/java-backend-skills"
+}

@@ -1,0 +1,13 @@
+java-backend-skills
+Copyright (c) 2026 alexlifexyz
+
+This project is not affiliated with or endorsed by Alibaba Group.
+
+The skills summarize practices in their own words and link to the official
+Alibaba Java Coding Guidelines (https://github.com/alibaba/p3c); they do not
+reproduce its text.
+
+skills/alibaba-java-guidelines/scripts/p3c-check.sh does not contain any rule
+implementation. At run time it downloads and runs p3c-pmd-jdk21 from Maven
+Central (https://github.com/loong95/p3c-cmd-jdk21, Apache-2.0), an unofficial
+port of the alibaba/p3c rules (Apache-2.0) to PMD 7 and JDK 21.

@@ -1,0 +1,13 @@
+{
+  "name": "java-backend-skills",
+  "owner": {
+    "name": "alexlifexyz"
+  },
+  "plugins": [
+    {
+      "name": "java-backend-skills",
+      "source": "./"
+    }
+  ],
+  "description": "中文 Java 后端 Agent Skills 合集"
+}
