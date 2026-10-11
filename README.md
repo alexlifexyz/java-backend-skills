@@ -4,6 +4,10 @@
 
 [English](README.en.md)
 
+![演示：写下单接口时，spring-transaction Skill 被自动触发，Agent 把 HTTP 扣库存和发 MQ 移出了事务](docs/demo.gif)
+
+上图是一次真实的 Claude Code 会话（未剪辑，只压缩了等待时间）：只说了一句"写下单接口"，Skill 就自动加载，Agent 没有把 HTTP 调用和 MQ 放进 `@Transactional`，并说明了扣库存失败、消息丢失时怎么兜底。
+
 SKILL.md 是通用格式，Claude Code、Codex、Cursor 等支持 Agent Skills 的工具都能用。
 
 ## 收录的 Skill

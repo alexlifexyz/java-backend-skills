@@ -4,6 +4,8 @@
 
 [中文](README.md)
 
+![Demo: asked to write an order endpoint, Claude loads spring-transaction and keeps the HTTP call and MQ send out of the transaction](docs/demo.gif)
+
 SKILL.md is a shared format, so the skills work in Claude Code, Codex, Cursor and other tools that support Agent Skills.
 
 | Skill | Use it when |
